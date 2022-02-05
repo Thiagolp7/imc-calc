@@ -1,13 +1,13 @@
 import { Container } from "./styles"
 
-interface OnResultProps{
-  onResult: string;
+interface OnImcResultProps{
+  onImcResult: string;
 }
 
-export const ImcResult = ({onResult}: OnResultProps) => {
+export const ImcResult = ({onImcResult}: OnImcResultProps) => {
   return (
-    <Container onResult={onResult}>
-      <p className="result-label">{onResult}</p>
+    <Container>
+      <p className="result-label">{onImcResult}</p>
     </Container>
   )
 }

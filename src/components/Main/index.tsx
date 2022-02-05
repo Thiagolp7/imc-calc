@@ -64,8 +64,8 @@ export const Main = () => {
       <ImcForm onTyping={{userWeight, setUserWeight, userHeight, setUserHeight}} 
         onCalculateImc={{handleCalculateImc}}
       />
-      <ImcResult onResult={imcResult}/>
-      <ImcTable onResult={rowResult}/>
+      <ImcResult onImcResult={imcResult}/>
+      <ImcTable onRowResult={rowResult}/>
     </Container>
   )
 }
