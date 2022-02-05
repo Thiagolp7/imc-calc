@@ -1,8 +1,14 @@
-function App() {
+import { GlobalStyle } from "./styles/global"
+import { Main } from "./components/Main"
+import { Footer } from "./components/Footer"
+
+export function App() {
   return (
-    <h1>hello world!!! Vite here!</h1>
-      
+    <>
+      <Main />
+      <Footer />
+      <GlobalStyle/>
+    </>
   )
 }
 
-export default App

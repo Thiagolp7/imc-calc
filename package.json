@@ -7,6 +7,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-icons": "^3.0.0",
+    "polished": "^4.1.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.3"
@@ -16,6 +18,7 @@
     "@types/react-dom": "^17.0.10",
     "@types/styled-components": "^5.1.21",
     "@vitejs/plugin-react": "^1.0.7",
+    "react-icons": "^4.3.1",
     "typescript": "^4.4.4",
     "vite": "^2.7.2"
   }
