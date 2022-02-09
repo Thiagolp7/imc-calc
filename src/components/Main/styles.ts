@@ -15,7 +15,7 @@ export const Container = styled.main`
   
   p {
     font-size: 1.8rem;
-    color: var(--text-paragraph) ;
+    color: var(--secondary) ;
   } 
   
   @media screen and (min-width: 480px){
@@ -25,7 +25,7 @@ export const Container = styled.main`
     
     p {
       font-size: 2rem;
-      color: var(--text-paragraph) ;
+      color: var(--secondary) ;
       margin-bottom: 1rem;
     } 
   }

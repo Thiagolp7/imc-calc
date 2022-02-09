@@ -16,8 +16,8 @@ export const Container = styled.form`
     height: 4rem;
     padding: 0 2rem ;
 
-    color: var(--input-color);
-    background: var(--bg-input);
+    color: var(--primary);
+    background: var(--bg-color);
     font-size: 1.6rem;
     text-align: center;
 
@@ -42,8 +42,8 @@ export const Container = styled.form`
   button {
     width: 100%;
     height: 4rem;
-    color: var(--lavender);
-    background: var(--blue);
+    color: var(--primary);
+    background: var(--tertiary);
     margin-top: 1.5rem;
 
     font-size: 1.6rem;

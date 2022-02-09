@@ -59,7 +59,7 @@ export const Main = () => {
 
   return (
     <Container>
-      <h1>Calcule seu IMC</h1>
+      <h1>Calcule seu IMC </h1>
       <p>Índice de massa corporal</p>
       <ImcForm onTyping={{userWeight, setUserWeight, userHeight, setUserHeight}} 
         onCalculateImc={{handleCalculateImc}}

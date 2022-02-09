@@ -1,23 +1,37 @@
+import { transparentize } from "polished";
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --red: #a31621;
-    --lavender: #e5eafa;
+    /* --lavender: #e5eafa;
     --blue: #087ca7;
     --spaceCadet: #282a3e;
-    --pink: #F26DF9;
-
-    --bg-01: var(--spaceCadet);
-
-    --text-title: var(--lavender);
-    --text-paragraph: var(--pink);
+    --pink: #F26DF9; */
     
-    --bg-input: var(--spaceCadet);
-    --input-color: var(--lavender);
+    --bg-color: var(--spaceCadet);
+    /* --bg-gradient: linear-gradient(
+      180deg,
+      rgba(16,16,25,1) 0%,
+      rgba(24,24,37,1) 50%,
+      rgba(48,48,74,1) 100%); */
+      
+      
+      
+      --lavender: #e5eafa;
+      --blue: #087ca7;
+      --spaceCadet: #282a3e;
+      --pink: #F26DF9;
 
-    --table-bg: var(--pink);
-    --table-color: var(--spaceCadet);
+      --bg-gradient: linear-gradient(
+      325deg,
+      #2b2d42 0%,
+     
+      #011627 100%);
+
+    --primary: var(--lavender);
+    --secondary: var(--pink);
+    --secondary-alpha: ${transparentize(0.6, '#F26DF9')};
+    --tertiary: var(--blue);
 
     font-size: 62.5%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -40,8 +54,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    color: var(--lavender);
-    background: linear-gradient(180deg, rgba(16,16,25,1) 0%, rgba(24,24,37,1) 50%, rgba(48,48,74,1) 100%);
+    color: var(--primary);
+    background: var(--bg-gradient);
 
     width: 100vw;
     height: 100vh;

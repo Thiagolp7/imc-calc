@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   .result-label {
     font-weight: 700;
-    color: var(--text-title);
+    color: var(--primary);
   }
 
 `

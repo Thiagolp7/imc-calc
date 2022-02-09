@@ -1,4 +1,3 @@
-import { transparentize } from "polished";
 import styled from "styled-components";
 
 export const Container = styled.table`
@@ -24,24 +23,24 @@ export const Container = styled.table`
   }
   
   & tr:last-child td {
-    border-bottom: 5px solid ${transparentize(0.5, '#F26DF9')};
+    border-bottom: 5px solid var(--secondary-alpha);
   }
   
   th {
     font-size: 1.6rem;
     color: var(lave);
-    background: ${transparentize(0.6, '#F26DF9')};
+    background: var(--secondary-alpha);
   }
   
   td {
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--secondary);
     font-size: 1.6rem;
     text-align: center;
     padding: .3rem;
   }
 
   .result-row {
-    background: var(--blue);
+    background: var(--tertiary);
   }
 
   @media screen and (min-width: 480px){
